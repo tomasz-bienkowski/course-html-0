@@ -9,6 +9,8 @@
     font-weight: bold;
     border-radius: 3px;
     margin-right: 8px;
+    transition: background-color 0.5s,
+    opacity 0.5s;
   }
 
   .download-button {
@@ -20,7 +22,24 @@
     cursor: pointer;
     font-weight: bold;
     border-radius: 3px;
+    transition: background-color 0.5s,
+    color 0.5s, opacity 0.5s;
   }
+  .getstarted-button:hover{
+    background-color: rgb(108, 64, 175);;
+  }
+  .getstarted-button:active{
+    opacity: 0.7;
+  }
+  .download-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+  .download-button:active{
+    opacity: 0.7;
+  }
+
+
 </style>
 <button class="getstarted-button">
   Get started
